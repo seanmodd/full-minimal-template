@@ -21,7 +21,8 @@ import {
   TablePagination
 } from '@mui/material';
 // redux
-import { useDispatch, useSelector } from '../../redux/store';
+// import { useDispatch, useSelector } from '../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { getProducts, deleteProduct } from '../../redux/slices/product';
 // utils
 import { fDate } from '../../utils/formatTime';

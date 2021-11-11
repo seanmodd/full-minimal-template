@@ -19,7 +19,8 @@ import {
 } from '@mui/material';
 import { LoadingButton, MobileDateTimePicker } from '@mui/lab';
 // redux
-import { useDispatch } from '../../../redux/store';
+// import { useDispatch } from '../../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { createEvent, updateEvent, deleteEvent } from '../../../redux/slices/calendar';
 //
 import ColorSinglePicker from '../../ColorSinglePicker';

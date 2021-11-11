@@ -6,7 +6,8 @@ import checkmarkFill from '@iconify/icons-eva/checkmark-fill';
 import { styled } from '@mui/material/styles';
 import { Box, Grid, Step, Stepper, Container, StepLabel, StepConnector } from '@mui/material';
 // redux
-import { useDispatch, useSelector } from '../../redux/store';
+// import { useDispatch, useSelector } from '../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { getCart, createBilling } from '../../redux/slices/product';
 // routes
 import { PATH_DASHBOARD } from '../../routes/paths';

@@ -4,7 +4,8 @@ import { useFormik, Form, FormikProvider } from 'formik';
 import { Card, Stack, Switch, Typography, FormControlLabel } from '@mui/material';
 import { LoadingButton } from '@mui/lab';
 // redux
-import { useSelector } from '../../../../redux/store';
+// import { useSelector } from '../../../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 // utils
 import fakeRequest from '../../../../utils/fakeRequest';
 

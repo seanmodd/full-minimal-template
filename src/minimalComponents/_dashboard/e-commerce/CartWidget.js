@@ -6,7 +6,8 @@ import shoppingCartFill from '@iconify/icons-eva/shopping-cart-fill';
 import { styled } from '@mui/material/styles';
 import { Badge } from '@mui/material';
 // redux
-import { useSelector } from '../../../redux/store';
+// import { useSelector } from '../../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 // routes
 import { PATH_DASHBOARD } from '../../../routes/paths';
 

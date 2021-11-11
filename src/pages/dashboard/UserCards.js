@@ -2,7 +2,8 @@ import { useEffect } from 'react';
 // material
 import { Container, Grid, Skeleton } from '@mui/material';
 // redux
-import { useDispatch, useSelector } from '../../redux/store';
+// import { useDispatch, useSelector } from '../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { getUsers } from '../../redux/slices/user';
 // routes
 import { PATH_DASHBOARD } from '../../routes/paths';

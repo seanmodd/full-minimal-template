@@ -4,7 +4,8 @@ import editFill from '@iconify/icons-eva/edit-fill';
 // material
 import { Card, Button, Typography, CardHeader, CardContent } from '@mui/material';
 // redux
-import { useSelector } from '../../../../redux/store';
+// import { useSelector } from '../../../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 
 // ----------------------------------------------------------------------
 

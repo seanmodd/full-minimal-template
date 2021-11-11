@@ -6,7 +6,8 @@ import arrowIosBackFill from '@iconify/icons-eva/arrow-ios-back-fill';
 import { styled } from '@mui/material/styles';
 import { Box, Link, Button, Divider, Typography, Stack } from '@mui/material';
 // redux
-import { useDispatch } from '../../../../redux/store';
+// import { useDispatch } from '../../../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { resetCart } from '../../../../redux/slices/product';
 // routes
 import { PATH_DASHBOARD } from '../../../../routes/paths';

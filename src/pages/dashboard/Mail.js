@@ -3,7 +3,8 @@ import { useParams } from 'react-router-dom';
 // material
 import { Container, Card } from '@mui/material';
 // redux
-import { useDispatch } from '../../redux/store';
+// import { useDispatch } from '../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { getLabels } from '../../redux/slices/mail';
 // routes
 import { PATH_DASHBOARD } from '../../routes/paths';

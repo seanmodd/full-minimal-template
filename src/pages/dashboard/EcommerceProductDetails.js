@@ -10,7 +10,8 @@ import { alpha, styled } from '@mui/material/styles';
 import { Box, Tab, Card, Grid, Divider, Skeleton, Container, Typography } from '@mui/material';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
 // redux
-import { useDispatch, useSelector } from '../../redux/store';
+// import { useDispatch, useSelector } from '../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { getProduct } from '../../redux/slices/product';
 // routes
 import { PATH_DASHBOARD } from '../../routes/paths';

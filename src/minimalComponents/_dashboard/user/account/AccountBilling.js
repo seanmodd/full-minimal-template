@@ -5,7 +5,8 @@ import { useSnackbar } from 'notistack';
 // material
 import { Box, Grid, Card, Button, Typography, Stack } from '@mui/material';
 // redux
-import { useSelector } from '../../../../redux/store';
+// import { useSelector } from '../../../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 // utils
 import fakeRequest from '../../../../utils/fakeRequest';
 //

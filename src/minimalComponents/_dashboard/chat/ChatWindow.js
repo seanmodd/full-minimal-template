@@ -3,7 +3,8 @@ import { useNavigate, useParams, useLocation } from 'react-router-dom';
 // material
 import { Box, Divider, Stack } from '@mui/material';
 // redux
-import { useDispatch, useSelector } from '../../../redux/store';
+// import { useDispatch, useSelector } from '../../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import {
   addRecipients,
   onSendMessage,

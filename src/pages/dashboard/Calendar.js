@@ -12,7 +12,8 @@ import { useState, useRef, useEffect } from 'react';
 import { useTheme } from '@mui/material/styles';
 import { Card, Button, Container, DialogTitle, useMediaQuery } from '@mui/material';
 // redux
-import { useDispatch, useSelector } from '../../redux/store';
+// import { useDispatch, useSelector } from '../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { getEvents, openModal, closeModal, updateEvent, selectEvent, selectRange } from '../../redux/slices/calendar';
 // routes
 import { PATH_DASHBOARD } from '../../routes/paths';

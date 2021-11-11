@@ -4,7 +4,8 @@ import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 // material
 import { Container, Stack, Skeleton, Grid } from '@mui/material';
 // redux
-import { useDispatch, useSelector } from '../../redux/store';
+// import { useDispatch, useSelector } from '../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { getBoard, persistColumn, persistCard } from '../../redux/slices/kanban';
 // routes
 import { PATH_DASHBOARD } from '../../routes/paths';
@@ -129,7 +130,8 @@ export default function Kanban() {
               >
                 {board?.columnOrder?.map((columnId, index) => {
                   const column = board.columns[columnId];
-                  return <KanbanColumn index={index} key={columnId} column={column} />;
+
+                  return <div />;
                 })}
 
                 {!board?.columnOrder.length && SkeletonLoad}

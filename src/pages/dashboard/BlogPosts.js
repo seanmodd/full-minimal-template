@@ -7,7 +7,8 @@ import { useEffect, useCallback, useState } from 'react';
 // material
 import { Box, Grid, Button, Skeleton, Container, Stack } from '@mui/material';
 // redux
-import { useDispatch, useSelector } from '../../redux/store';
+// import { useDispatch, useSelector } from '../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { getPostsInitial, getMorePosts } from '../../redux/slices/blog';
 // hooks
 import useSettings from '../../hooks/useSettings';

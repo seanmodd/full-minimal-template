@@ -6,7 +6,8 @@ import arrowIosBackFill from '@iconify/icons-eva/arrow-ios-back-fill';
 import { Grid, Button } from '@mui/material';
 import { LoadingButton } from '@mui/lab';
 // redux
-import { useDispatch, useSelector } from '../../../../redux/store';
+// import { useDispatch, useSelector } from '../../../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { onGotoStep, onBackStep, onNextStep, applyShipping } from '../../../../redux/slices/product';
 //
 import CheckoutSummary from './CheckoutSummary';

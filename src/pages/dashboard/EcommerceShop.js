@@ -4,7 +4,8 @@ import { filter, includes, orderBy } from 'lodash';
 // material
 import { Backdrop, Container, Typography, CircularProgress, Stack } from '@mui/material';
 // redux
-import { useDispatch, useSelector } from '../../redux/store';
+// import { useDispatch, useSelector } from '../../redux/store';
+import { useDispatch, useSelector } from 'react-redux';
 import { getProducts, filterProducts } from '../../redux/slices/product';
 // routes
 import { PATH_DASHBOARD } from '../../routes/paths';
