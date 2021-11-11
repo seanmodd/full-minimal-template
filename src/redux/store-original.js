@@ -1,4 +1,4 @@
-// import { useDispatch as useReduxDispatch, useSelector as useReduxSelector } from 'react-redux';
+import { useDispatch as useReduxDispatch, useSelector as useReduxSelector } from 'react-redux';
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import { persistStore, persistReducer } from 'redux-persist';
 //
@@ -16,9 +16,8 @@ const store = configureStore({
 
 const persistor = persistStore(store);
 
-// const useSelector = useReduxSelector;
+const useSelector = useReduxSelector;
 
-// const useDispatch = () => useReduxDispatch();
+const useDispatch = () => useReduxDispatch();
 
-// export { store, persistor, useSelector, useDispatch };
-export { store, persistor };
+export { store, persistor, useSelector, useDispatch };

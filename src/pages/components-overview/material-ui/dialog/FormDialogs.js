@@ -18,7 +18,7 @@ export default function FormDialogs() {
   return (
     <div>
       <Button variant="outlined" color="warning" onClick={handleClickOpen}>
-        Form Dialogs
+        Form Dialogsss
       </Button>
 
       <Dialog open={open} onClose={handleClose}>

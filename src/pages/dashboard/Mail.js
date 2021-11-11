@@ -20,6 +20,7 @@ export default function Mail() {
   const { themeStretch } = useSettings();
   const dispatch = useDispatch();
   const { mailId } = useParams();
+  console.log('this 📭📭📭📭📭📭📭📭📭📭📭📭📭📭📭📭📭 is mailID from useParams() ', mailId);
   const [openSidebar, setOpenSidebar] = useState(false);
   const [openCompose, setOpenCompose] = useState(false);
 
