@@ -131,6 +131,7 @@ export default function AutocompleteComponent() {
                 renderInput={(params) => <TextField {...params} label="freeSolo" />}
                 sx={{ mb: 2 }}
               />
+              {/* IDK What the difference is between above and below... */}
               <Autocomplete
                 fullWidth
                 freeSolo
