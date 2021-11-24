@@ -25,6 +25,8 @@ export default function Mail() {
   const [openSidebar, setOpenSidebar] = useState(false);
   const [openCompose, setOpenCompose] = useState(false);
 
+  const dispatchingLabels = dispatch(getLabels());
+  console.log('This 🏷️🏷️🏷️🏷️🏷️🏷️🏷️🏷️ is dispatchingLabels from mail/all.js ', dispatchingLabels);
   useEffect(() => {
     dispatch(getLabels());
   }, [dispatch]);

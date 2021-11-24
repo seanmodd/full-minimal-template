@@ -23,6 +23,8 @@ MailSidebar.propTypes = {
 
 export default function MailSidebar({ isOpenSidebar, onOpenCompose, onCloseSidebar }) {
   const { pathname } = useLocation();
+  const mylabel = useSelector((state) => state.mail);
+  console.log('🚀 ~ file: MailSidebar.js ~ line 32 ~ mylabel', mylabel);
   const { labels } = useSelector((state) => state.mail);
 
   useEffect(() => {
