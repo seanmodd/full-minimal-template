@@ -197,8 +197,8 @@ export default function SliderComponent() {
                   value={price}
                   onChange={handleChangePrice}
                   valueLabelDisplay="on"
-                  getAriaValueText={valuePrice}
                   valueLabelFormat={valueLabelFormatPrice}
+                  getAriaValueText={valuePrice}
                 />
               </Box>
               <Box
